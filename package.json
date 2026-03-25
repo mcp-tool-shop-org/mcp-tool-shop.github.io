@@ -1,5 +1,10 @@
 {
   "private": true,
   "name": "mcp-tool-shop.github.io",
-  "description": "MCP Tool Shop - AI tools for developers"
+  "version": "1.0.0",
+  "description": "MCP Tool Shop - AI tools for developers",
+  "scripts": {
+    "build": "cd site && npm ci && npm run build",
+    "verify": "cd site && npm ci && npm run build"
+  }
 }
